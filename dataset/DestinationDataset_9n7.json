@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_9n7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "1807destination",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "new_walmart"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

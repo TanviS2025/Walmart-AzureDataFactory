@@ -1,0 +1,53 @@
+{
+	"name": "SourceDataset_9n7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "1807source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "new_walmart.csv",
+				"container": "walmartdatacontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Store",
+				"type": "String"
+			},
+			{
+				"name": "Date",
+				"type": "String"
+			},
+			{
+				"name": "Weekly_Sales",
+				"type": "String"
+			},
+			{
+				"name": "Temperature",
+				"type": "String"
+			},
+			{
+				"name": "Fuel_Price",
+				"type": "String"
+			},
+			{
+				"name": "CPI",
+				"type": "String"
+			},
+			{
+				"name": "Unemployment",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

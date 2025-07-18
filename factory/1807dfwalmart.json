@@ -1,0 +1,9 @@
+{
+	"name": "1807dfwalmart",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6b097f8c-48d1-4d6a-be08-e6bd2736b4d2",
+		"tenantId": "2b49e88a-5f95-4bbc-a664-987d439815fd"
+	}
+}
